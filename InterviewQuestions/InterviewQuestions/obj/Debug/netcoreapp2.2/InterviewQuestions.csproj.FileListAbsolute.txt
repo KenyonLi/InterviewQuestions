@@ -1,0 +1,11 @@
+E:\GitRepos\InterviewQuestions\InterviewQuestions\InterviewQuestions\bin\Debug\netcoreapp2.2\InterviewQuestions.deps.json
+E:\GitRepos\InterviewQuestions\InterviewQuestions\InterviewQuestions\bin\Debug\netcoreapp2.2\InterviewQuestions.runtimeconfig.json
+E:\GitRepos\InterviewQuestions\InterviewQuestions\InterviewQuestions\bin\Debug\netcoreapp2.2\InterviewQuestions.runtimeconfig.dev.json
+E:\GitRepos\InterviewQuestions\InterviewQuestions\InterviewQuestions\bin\Debug\netcoreapp2.2\InterviewQuestions.dll
+E:\GitRepos\InterviewQuestions\InterviewQuestions\InterviewQuestions\bin\Debug\netcoreapp2.2\InterviewQuestions.pdb
+E:\GitRepos\InterviewQuestions\InterviewQuestions\InterviewQuestions\obj\Debug\netcoreapp2.2\InterviewQuestions.csproj.CoreCompileInputs.cache
+E:\GitRepos\InterviewQuestions\InterviewQuestions\InterviewQuestions\obj\Debug\netcoreapp2.2\InterviewQuestions.AssemblyInfoInputs.cache
+E:\GitRepos\InterviewQuestions\InterviewQuestions\InterviewQuestions\obj\Debug\netcoreapp2.2\InterviewQuestions.AssemblyInfo.cs
+E:\GitRepos\InterviewQuestions\InterviewQuestions\InterviewQuestions\obj\Debug\netcoreapp2.2\InterviewQuestions.dll
+E:\GitRepos\InterviewQuestions\InterviewQuestions\InterviewQuestions\obj\Debug\netcoreapp2.2\InterviewQuestions.pdb
+E:\GitRepos\InterviewQuestions\InterviewQuestions\InterviewQuestions\obj\Debug\netcoreapp2.2\InterviewQuestions.csprojAssemblyReference.cache

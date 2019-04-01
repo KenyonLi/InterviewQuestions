@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionMethoed", "Recursi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleAlgorithm", "BubbleAlgorithm\BubbleAlgorithm.csproj", "{5AD9CC10-E99E-403A-BBC0-67C5B9EAF5A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewQuestions", "InterviewQuestions\InterviewQuestions.csproj", "{FFEF59F0-A961-461A-B758-4C208C8F2666}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5AD9CC10-E99E-403A-BBC0-67C5B9EAF5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AD9CC10-E99E-403A-BBC0-67C5B9EAF5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AD9CC10-E99E-403A-BBC0-67C5B9EAF5A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFEF59F0-A961-461A-B758-4C208C8F2666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFEF59F0-A961-461A-B758-4C208C8F2666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFEF59F0-A961-461A-B758-4C208C8F2666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFEF59F0-A961-461A-B758-4C208C8F2666}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
