@@ -1,0 +1,11 @@
+E:\GitRepos\InterviewQuestions\InterviewQuestions\BubbleAlgorithm\bin\Debug\netcoreapp2.2\BubbleAlgorithm.deps.json
+E:\GitRepos\InterviewQuestions\InterviewQuestions\BubbleAlgorithm\bin\Debug\netcoreapp2.2\BubbleAlgorithm.runtimeconfig.json
+E:\GitRepos\InterviewQuestions\InterviewQuestions\BubbleAlgorithm\bin\Debug\netcoreapp2.2\BubbleAlgorithm.runtimeconfig.dev.json
+E:\GitRepos\InterviewQuestions\InterviewQuestions\BubbleAlgorithm\bin\Debug\netcoreapp2.2\BubbleAlgorithm.dll
+E:\GitRepos\InterviewQuestions\InterviewQuestions\BubbleAlgorithm\bin\Debug\netcoreapp2.2\BubbleAlgorithm.pdb
+E:\GitRepos\InterviewQuestions\InterviewQuestions\BubbleAlgorithm\obj\Debug\netcoreapp2.2\BubbleAlgorithm.csprojAssemblyReference.cache
+E:\GitRepos\InterviewQuestions\InterviewQuestions\BubbleAlgorithm\obj\Debug\netcoreapp2.2\BubbleAlgorithm.csproj.CoreCompileInputs.cache
+E:\GitRepos\InterviewQuestions\InterviewQuestions\BubbleAlgorithm\obj\Debug\netcoreapp2.2\BubbleAlgorithm.AssemblyInfoInputs.cache
+E:\GitRepos\InterviewQuestions\InterviewQuestions\BubbleAlgorithm\obj\Debug\netcoreapp2.2\BubbleAlgorithm.AssemblyInfo.cs
+E:\GitRepos\InterviewQuestions\InterviewQuestions\BubbleAlgorithm\obj\Debug\netcoreapp2.2\BubbleAlgorithm.dll
+E:\GitRepos\InterviewQuestions\InterviewQuestions\BubbleAlgorithm\obj\Debug\netcoreapp2.2\BubbleAlgorithm.pdb
