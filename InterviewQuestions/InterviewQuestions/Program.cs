@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace InterviewQuestions
 {
@@ -20,6 +21,17 @@ namespace InterviewQuestions
              */
             var restult = TryFn();
             Console.WriteLine($"{restult}");
+            int[] array = new int[] { };
+            int length = array.Length;
+            String str = new String("fdsfd");
+            String[] strArra = new string[] { "dfdf" };
+
+            string inputStr = "   xx    xx ";
+            var reg = Regex.Replace(inputStr.Trim(), @"\s+|\s+g", " ");
+            Console.WriteLine(reg);
+
+
+            //=======================================================
             Console.ReadKey();
 
         }
@@ -76,6 +88,95 @@ namespace InterviewQuestions
         public override void PrintFields()
         {
             Console.WriteLine($"x={x},y={y}");
+        }
+    }
+
+
+
+    public class Employee
+    {
+        public string EmployeeName { get; set; }
+        public int EmployeeNo { get; set; }
+    }
+
+    public abstract class AbstractOfficeWorker
+    {
+        public abstract void Insert(Employee employee);
+        public abstract void GenerateReport(Employee employee);
+    }
+
+
+    public class ConcreteBase : AbstractOfficeWorker
+    {
+        public override void GenerateReport(Employee employee)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Insert(Employee employee)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class Rectangle
+    {
+        public int Long { get; set; }
+        public int Wide { get; set; }
+    }
+
+    public abstract class AbstractCalcule
+    {
+        public abstract int compute(Func<Rectangle, int> func);
+        public int computeFunc(Func<int> func)
+        {
+            return func();
+        }
+    }
+
+    public class InstanceCalculate : AbstractCalcule
+    {
+        private Rectangle rectangle;
+        public InstanceCalculate(Rectangle rectangle)
+        {
+            this.rectangle = rectangle;
+        }
+        public override int compute(Func<Rectangle, int> func)
+        {
+            if (func == null) throw new Exception("func 为null");
+            var f = func(rectangle);
+            return f;
+        }
+    }
+
+    public class App
+    {
+
+        public int CalculateReslut(int Wide, int Long)
+        {
+
+            //实现委托类型，根据用户输入的两个数据（分别长和宽），计算矩形的周长和面积，
+            //如果输入的长和宽一样，那么就以长方形计算公式计算。
+            var rectangle = new Rectangle { Wide = Wide, Long = Long };
+            AbstractCalcule abstractCalcule = new InstanceCalculate(rectangle);
+
+
+            /*
+             * 第二种方法
+                abstractCalcule.computeFunc(() => { return (Wide + Long) * 2; });
+            abstractCalcule.computeFunc(() => { return (Wide * Long); });
+             */
+
+            return abstractCalcule.compute(f =>
+            {
+                if (f.Long == f.Wide)
+                {
+                    return (f.Long + f.Wide) * 2;//周长
+                }
+                return (f.Long * f.Wide);//面积
+            });
+
+
         }
     }
 }
